@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ro'yxatdan o'tish</title>
+  <link rel="stylesheet" href="register.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="shortcut icon" href="e596ab6d-ac6e-4468-a814-f9301ddaa36f_removalai_preview.png" type="image/x-icon">
+</head>
+<body>
+  <form action="">
+   <h1>Ro'yxatdan o'ting</h1>
+   <input type="text" placeholder="Ismingizni kiriting" >
+   <br>
+   <br>
+   <input type="text" placeholder="Familiyangizni kiriting" >
+   <br>
+   <br>
+   <input type="email" placeholder="Emailingizni kiriting" >
+   <br>
+   <br>
+   <input type="password" placeholder="Parolingizni kiriting" >
+   <br>
+   <input type="checkbox" class="check" >
+   <p class="info" >Hammasiga rozi bo'lsangiz galochka quyib jo'natishni bosing. 
+    biz sizga javobgar emasmiz !
+   </p>
+    <hr>
+   <p class="or" >Yoki</p>
+     <div class="with">
+      <img src="6b781ff9-d29a-48d1-899c-331307500c63_removalai_preview.png" alt="google" class="ggle" >
+      <button onclick="alert('Xatolik yuz berdi ! account ochib turing ! uzur')" class="google" type="button">Googledan kirish</button>
+     </div>
+     <button onclick="alert('Registeratsiya muvaffaqiyatli amalga oshdi ✅')" class="ok" >Jo'natish</button>
+  </form>
+  <script>
+    document.querySelector(".ok").addEventListener("click", function () {
+  window.location.href = "index.html"; // yoki "#home" agar bo'limga yo'naltirmoqchi bo'lsangiz
+});
+
+</script>
+</body>
+</html>

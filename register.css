@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: rgb(61, 61, 61);
+}
+form{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    top: 170px;
+    left: 41.3%;
+}
+h1{
+    padding: 15px;
+}
+input{
+    width: 290px;
+    height: 33px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid gray;
+    cursor: context-menu;
+}
+input:active{
+    border: none;
+    border-bottom:1px solid #000;
+}
+/* input:hover{
+    border: none;
+    border-bottom: 1px solid#000;
+} */
+.check{
+    display: inline;
+    position: relative;
+    left:-150px;
+    top: 32px;
+    width: 20px;
+}
+.or{
+    position: relative;
+    background-color: #fff;
+    top: 6px;
+    display: inline;
+    padding: 0px 10px;
+}
+hr{
+    position: relative;
+    top: 20px;
+}
+.info{
+    width: 300px;
+    position: relative;
+    left: 50px;
+}
+.google{
+    box-shadow: 0px 0px 10px black;
+    border: none;
+    /* border-bottom:3px solid rgb(0, 0, 0) ; */
+    /* border: 1px solid rgb(0, 150, 255); */
+    padding: 10px;
+    border-radius: 15px;
+    width: 250px;
+    position: relative;
+    left: -20px;
+    background-color: rgba(0, 149, 255, 0.465);
+    cursor: pointer;
+}
+.with{
+    transition: 0.5s;
+}
+.ggle{
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: 20px;
+    display: inline;
+    z-index: 1;
+    left: 50px;
+    cursor: pointer;
+}
+.with:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.with:active{
+    transform: scale(0.9);
+}
+.ok{
+    border: none;
+    /* border-top:3px solid rgb(0, 0, 0) ; */
+    /* border: 1px solid rgb(0, 150, 255); */
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgba(0, 149, 255, 0.465);
+}
+.ok:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.ok:active{
+    transform: scale(0.9);
+}
